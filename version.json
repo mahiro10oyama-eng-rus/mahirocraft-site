@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
-  "title": "Тестовый патч v1.0.1 🌸",
-  "description": "Проверка фонового обновления лаунчера и сохранения сборок.",
+  "title": "Патч v1.0.1 🌸",
+  "description": "Разблокирован мультиплеер в 1.16.5, изолированы библиотеки LWJGL и исправлены вылеты Java.",
   "mandatory": false,
   "download_page": "https://mahiro10oyama-eng-rus.github.io/mahirocraft-site/",
   "setup_url": "https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.1/MahiroCraft_v1.0.1_Setup.exe",
