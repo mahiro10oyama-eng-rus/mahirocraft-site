@@ -488,10 +488,10 @@ function toggleFaq(button) {
 // 6. MODALS & DOWNLOAD LEGAL AGREEMENT
 // ==========================================
 
-// GitHub Release v1.0.0 URLs
+// GitHub Release v1.0.1 URLs
 const DOWNLOAD_LINKS = {
-  exe: 'https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.0/MahiroCraft_v1.0.0_Setup.exe',
-  zip: 'https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.0/MahiroCraft_v1.0.0_Portable.zip'
+  exe: 'https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.1/MahiroCraft_v1.0.1_Setup.exe',
+  zip: 'https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.1/MahiroCraft_v1.0.1_Portable.zip'
 };
 
 let currentDownloadFormat = 'exe'; // 'exe' | 'zip'
@@ -653,7 +653,7 @@ function handleConfirmedDownload() {
 
   const downloadUrl = DOWNLOAD_LINKS[currentDownloadFormat] || DOWNLOAD_LINKS.exe;
 
-  // Direct download from GitHub Release v1.0.0
+  // Direct download from GitHub Release v1.0.1
   window.location.href = downloadUrl;
 
   // Close download modal
@@ -705,7 +705,7 @@ function triggerDownload(filename) {
 
   // Simulated download
   const blob = new Blob(
-    [`MahiroCraft Launcher v1.0.0 Release\nPlatform: Native .NET 10 / Windows x64\nCreated by _Mah1r0_\nDiscord: https://discord.gg/RmEYpcjnNT\n`], 
+    [`MahiroCraft Launcher v1.0.1 Release\nPlatform: Native .NET 10 / Windows x64\nCreated by _Mah1r0_\nDiscord: https://discord.gg/RmEYpcjnNT\n`], 
     { type: 'text/plain;charset=utf-8' }
   );
   const url = URL.createObjectURL(blob);
