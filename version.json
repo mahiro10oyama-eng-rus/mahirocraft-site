@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "title": "Релиз v1.0.0 🌸",
-  "description": "Первый публичный релиз: скины Ely.by, автономная Java и чистый нативный UI.",
+  "version": "1.0.1",
+  "title": "Тестовый патч v1.0.1 🌸",
+  "description": "Проверка фонового обновления лаунчера и сохранения сборок.",
   "mandatory": false,
   "download_page": "https://mahiro10oyama-eng-rus.github.io/mahirocraft-site/",
-  "setup_url": "https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.0/MahiroCraft_v1.0.0_Setup.exe",
-  "portable_url": "https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.0/MahiroCraft_v1.0.0_Portable.zip"
+  "setup_url": "https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.1/MahiroCraft_v1.0.1_Setup.exe",
+  "portable_url": "https://github.com/mahiro10oyama-eng-rus/mahirocraft-site/releases/download/v1.0.1/MahiroCraft.exe"
 }
